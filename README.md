@@ -1,4 +1,6 @@
 # Data Cleaning Framework
+This repo has migrated to [Data Cleaning Exploration Framework - DCEF](https://github.com/paddymul/dcef) due to the pip package name of DCF being taken.  All future development will occur there, this README will remain up for a month, then it will be emptied, only pointing at DCEF in the README.
+
 We all know how awkward it is to clean data in jupyter notebooks.  Multiple cells of exploratory work, trying different transforms, looking up different transforms, adhoc functions that work in one notebook and have to be either copied/pasta-ed to the next notebook, or rewritten from scratch.  Data Cleaning Framework  (DCF) makes all of that better by providing a visual UI for common cleaning operations AND emitting python code that performs the transformation. Specifically, the DCF is a tool built to interactively explore, clean, and transform pandas dataframes.
 
 ![Data Cleaning Framework Screenshot](static/images/dcf-jupyter.png)
